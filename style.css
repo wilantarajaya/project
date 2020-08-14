@@ -1,0 +1,175 @@
+* {
+    font-family: anton, sans-serif;
+}
+
+/* NavBar */
+
+.navbar {
+    background-color: #1b262c !important;
+   
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+    font-size: 25px !important;
+}
+
+.navbar a:hover {
+    color: #0f4c75 !important;
+}
+
+.burger i {
+    color: white !important;
+    font-size: 25px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+.navbar-toggler :hover {
+    color: #0f4c75 !important;
+}
+
+.navbar-collapse{
+    text-align: right !important;
+}
+/*  */
+
+/* Jumbotron */
+
+.jumbotron img {
+    width: 300px;
+
+}
+.jumbotron{
+    background-color: white !important;
+    text-align: center !important;
+}
+.jumbotron h1 {
+    font-size: 25px;
+    text-align: center !important;
+    margin-top: 50px;
+   
+}
+
+.jumbotron p {
+    text-align: center !important;
+    font-size: 22px;
+}
+
+/*  */
+
+/* About */
+.about  {
+    background-color: #0f4c75;
+    width: 100%;
+   
+    color: white;
+}
+.about h2 {
+    margin-top: 30px;
+}
+
+.about img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.about p {
+    margin-top: 30px;
+    padding: 10px;
+}
+/*  */
+
+/* Skill */
+.skill {
+    background-color: white;
+    
+}
+
+.skill h2 {
+    margin-top: 30px;
+}
+
+.skill img {
+    width: 130px;
+    padding: 10px;
+    margin-top: 30px;
+    
+}
+
+.skill .small1 {
+    width: 130px;
+}
+.skill .small {
+    width: 150px;
+}
+
+/*  */
+
+/* Contact */
+.contact {
+    background-color: #0f4c75;
+    color: white;
+}
+
+.contact img {
+    width: 90%;
+    margin-bottom: 50px;
+}
+/*  */
+
+/* Footer */
+.footer {
+    background-color:  #1b262c;
+    color: white;
+}
+.footer p {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p:hover {
+    color: #0f4c75;
+}
+/*  */
+
+/* DesktopSize */
+@media (min-width: 992px) { 
+    
+    .jumbotron {
+        height: 400px;
+    }
+    .jumbotron img {
+        width: 50%;
+        margin-left: 500px ;
+        
+    }
+    .jumbotron h1 {
+        text-align: left !important;
+        margin-top: -257px;
+        font-size: 2em;
+        font-weight: 20px;
+        
+    }
+    .jumbotron p {
+        text-align: left !important;
+        color: #1b262c;
+        font-size: 28px;
+    }
+    .about  {
+        margin-top: 200px;
+    }
+
+    .about img {
+        width: 500px;
+        margin-bottom: 50px;
+    }
+    .about h2
+   
+  
+}
+/*  */
+
+

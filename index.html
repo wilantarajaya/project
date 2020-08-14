@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/all.css">
+  <!--  -->
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--  -->
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <!--  -->
+
+</head>
+<body>
+
+  <!-- JavaScrip -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!--  -->
+
+  <!-- NavBar -->
+  <div class="burger">
+  <nav class="navbar fixed-top navbar-expand-lg ">
+    <div class="container">
+      <a class="navbar-brand" href="#">Wilantara Jaya</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="navbar-brand" href="#Home">Home </a>
+          <a class="navbar-brand" href="#About">About</a>
+          <a class="navbar-brand" href="#Skill">Skill</a>
+
+          <a class="navbar-brand" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <!--  -->
+
+  <!-- Jumbotron -->
+  <section id="Home">
+    <div class="jumbotron jumbotron-fluid mt-5">
+      <div class="container">
+            <img src="image/undraw.svg">
+            <h1 class="display-4">Welcome To My Personal Website</h1>
+            <p class="lead">I Make What I Want.</p>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+
+  <!-- About -->
+  <div id="About">
+    <div class="about" >
+        <div class="container">
+          <div class="row">
+            <div class="col text-center">
+              <h2 >About Me</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <img src="image/resume.svg">
+            </div>
+            <div class="col-lg-6">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit, laudantium pariatur. Non debitis animi natus eos culpa vero velit nostrum fuga repellendus, harum nam? Eaque labore debitis ut soluta ipsum!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil nesciunt debitis, culpa enim eum aperiam. Fuga, vel. Iusto rerum, quod reiciendis, sunt veritatis at nam recusandae, magnam repellendus assumenda consequatur?</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  <!--  -->
+
+  <!-- Skill -->
+  <section id="Skill">
+    <div class="skill">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h2>Skill</h2>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-md-4 ">
+            <i><img src="image/html5.svg"></i>
+          </div>
+          <div class="col-md-4">
+            <i><img src="image/css3.svg"></i>
+          </div>
+          <div class="col-md-4">
+            <i><img src="image/js.svg"></i>
+          </div>
+        </div>
+        <div class="row text-center mb-4">
+          <div class="col-md-4">
+            <i><img src="image/bootstrap.svg"></i>
+          </div>
+          <div class="col-md-4">
+            <i><img class="small1" src="image/c.svg"></i>
+          </div>
+          <div class="col-md-4">
+            <i ><img class="small" src="image/c++.svg"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="mt-4 text-center">Contact</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-5 text-center mt-4">
+          <img class="mt-4" src="image/Letter.svg">
+        </div>
+        <div class="col-lg-7">
+          <form class="mb-5">
+            <div class="form-group mt-5">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Massage</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter Massage"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--  -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p> &copy; Copyright 2020</p>
+  </footer>
+  <!--  -->
+</body>
+</html>
